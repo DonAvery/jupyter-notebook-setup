@@ -1,2 +1,17 @@
+https://whimsical.com/getting-started-anaconda-miniconda-and-conda-BD751gt65nKjAD5i1CNEXU
+
+
 These are the steps to setup a Jupyter notebook for new projects.
+
+1. Create a project folder on your system and change into it.
+2. Create a custom environment within the project folder.
+  * 'conda create --prefix ./env pandas numpy matplotlib scikit-learn seaborn' **these are the packages that were installed for this particular project
+3. Activate the new environment (conda activate).
+  * 'conda activate C:\Users\daver\Desktop\ZTM\ubiquant-market-prediction\env'
+4. Install Jupyter (conda install jupyter).
+  * 'conda install jupyter'
+5. Load up Jupyter Notebook and check the tools needed.
+  * 'jupyter notebook'
+
+
 
